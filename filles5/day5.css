@@ -1,0 +1,100 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fixd{
+    max-width: 1270px;
+    margin: auto;
+}
+.bg-color{
+    background-color: #f0e8e8;
+}
+.bg-color2{
+    background-color: rgb(48, 44, 44);
+    color: #FFFf;
+}
+.section-img img{
+    width: 150px;
+    height: outo;
+}
+
+.slider-section{
+    background: url(img/rhul_graduate_student_1920.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0 , 0, 0.3);
+    z-index: -1;
+}
+
+.section-text{
+    color: black;
+    margin: auto;
+    font-size: 20px;
+    max-width: 1050px;
+    font-weight: 500;
+}
+.section{
+    color: #ffffff;
+    margin-bottom:;
+}
+
+
+/*university section*/
+.university-section span{
+    font-size: 50px;
+
+}
+
+.div1 img{
+    width: 100%;
+    height: auto;
+}
+.div2{
+    background-color: #ddd;
+    color:black;
+}
+.student-img img{
+    width: 100%;
+    height: auto;
+    border-right: 5px solid orange;
+}
+iframe{
+    width: 420px;
+    height: 220px;
+}
+.nttt{
+margin-top: -5
+px;
+}
+
+.foter-sec{
+    background-color: orange;
+}
+.foter-mac{
+    background-color:rgb(163, 163, 241);
+}
+.foter-lec{
+    background: url(img/rhul_student_life_sitting_560.jpg) no-repeat center center;
+    background-size: cover;
+}
+.footer-sec span{
+    font-size: 40px;
+    color: blue;
+}
+.footer-section{
+    height: 600px;
+}
+marquee{
+    font-size: large;
+}
